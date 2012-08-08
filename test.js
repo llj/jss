@@ -7,3 +7,16 @@ xx(23);
 function yy(e) {
 	return xx(e)*e;
 }
+
+  function evalString(text) {
+    return text.replace(/\\\\/g, '\\')
+               .replace(/\\n/g, '\n')
+               .replace(/\\r/g, '\r')
+               .replace(/\\t/g, '\t')
+               .replace(/\\b/g, '\b')
+               .replace(/\\f/g, '\f')
+               .replace(/\\{/g, '{')
+               .replace(/\\}/g, '}')
+               .replace(/\\"/g, '"')
+               .replace(/\\'/g, "'");
+  }
