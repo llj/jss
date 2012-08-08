@@ -20,3 +20,6 @@ function yy(e) {
                .replace(/\\"/g, '"')
                .replace(/\\'/g, "'");
   }
+function test(e) {
+	alert('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
+}
