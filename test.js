@@ -23,3 +23,6 @@ function yy(e) {
 function test(e) {
 	alert('xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx')
 }
+function testie8(e) {
+alert('这是在ie8下写的');
+}
