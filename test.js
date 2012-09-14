@@ -27,3 +27,4 @@ function testie8(e) {
 alert('这是在ie8下写的');
 alert('ie9:可以');
 }
+console.log('xxx');
